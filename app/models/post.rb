@@ -10,5 +10,4 @@ class Post < ActiveRecord::Base
       self.post_categories.build(category: category)
     end
   end
-
 end
